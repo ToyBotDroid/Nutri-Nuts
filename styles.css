@@ -17,6 +17,7 @@ font-family: 'Quicksand', sans-serif;
 
 html{
   scroll-behavior: smooth;
+  padding-top: 70px; /* height of sticky header */
 }
 
 a , li{
@@ -110,8 +111,9 @@ header{
 }
 
 
-li:hover{
-  border-bottom: solid rgb(21, 81, 247);
+li:hover, #header-img:hover{
+/*   border-bottom: solid rgb(21, 81, 247); cause height change of sticky header */
+  transform: scale(1.2)
 }
 
 .section-title{
