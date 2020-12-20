@@ -204,12 +204,14 @@ dl, ol, ul {
   }
 
   #nav-bar ul{
-    padding-top: .5rem;
+    padding: .2rem 0rem;
     justify-content: space-around;
+
   }
 
   #nav-bar li{
     font-size: 1rem;
+    padding: .2rem 0rem;
   }
 
   #header-img{
