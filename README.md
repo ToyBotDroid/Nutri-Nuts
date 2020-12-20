@@ -1,2 +1,3 @@
 # Nutri-Nuts
-Responsive landing page.
+
+Responsive landing page using html, css and bootstrap.
